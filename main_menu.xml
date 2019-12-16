@@ -1,0 +1,46 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE ONE OPTION"
+        android:layout_gravity="center"
+        android:textSize="30dp"/>
+
+<Button
+
+    android:layout_width="300dp"
+    android:layout_height="65dp"
+    android:text="WRITE A COMPLAINT"
+    android:layout_marginTop="150dp"
+    android:layout_gravity="center"
+    android:textSize="20dp"/>
+    <Button
+        android:textSize="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="RECENT COMPLAINTS ADDED"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:textSize="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="STATUS OF PREVIOUS COMPLAINT"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:textSize="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
